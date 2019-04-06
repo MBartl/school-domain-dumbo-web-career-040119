@@ -23,6 +23,5 @@ class School
     @roster.map do |key, value|
       value.sort
     end
-    output
   end
 end
