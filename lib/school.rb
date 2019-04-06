@@ -20,6 +20,6 @@ class School
   end
 
   def sort
-    @roster.transform_values!
+    @roster.transform_values {|x| x.sort}
   end
 end
