@@ -21,7 +21,7 @@ class School
 
   def sort
     @roster.map do |key, value|
-      {key => value.sort}
+      puts {key => value.sort}
     end
   end
 end
